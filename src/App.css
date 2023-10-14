@@ -13,8 +13,8 @@
   margin: 30px 0;
   text-align: center;
   letter-spacing: 3px;
-  -webkit-text-stroke: 2px #dde9e2;
-  color: #2E8B57;
+  
+  color: #882e8b;
 }
 
 .App footer {
@@ -26,10 +26,10 @@
 }
 
 .App a {
-  color: #2E8B57;
+  color: #8b2e8b;
   text-decoration: none;
 }
 
 .App a:hover {
-  color: #277047;
+  color: #532770;
 }

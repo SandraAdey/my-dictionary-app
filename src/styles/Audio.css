@@ -7,10 +7,10 @@ button {
   margin: 0;
   border: none;
   font-size: 25px;
-  color: #2E8B57;
+  color: #7b2e8b;
   transition: color 0.3s ease;
 }
 
 button:hover {
-  color: #277047;
+  color: #5a2770;
 }

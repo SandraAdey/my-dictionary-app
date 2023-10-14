@@ -16,7 +16,7 @@ function App() {
             Coded by{" "}
             <a href="https://github.com/s-shemmee" target="_blank">
               {" "}
-              Chaimae Lamirine
+              Sandra Adeyinka
             </a>
             ,
             <a
