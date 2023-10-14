@@ -14,13 +14,13 @@ function App() {
         <footer className="mt-5 footer">
           <p className="m-0 credit">
             Coded by{" "}
-            <a href="https://github.com/s-shemmee" target="_blank">
+            <a href="https://github.com/sandraadey" target="_blank">
               {" "}
               Sandra Adeyinka
             </a>
             ,
             <a
-              href="https://github.com/shemmee/Dictionary-React-App"
+              href="https://github.com/sandraadey/my-dictionary-app"
               target="_blank"
             >
               Open sourced on Github.
