@@ -58,7 +58,7 @@ export default function Dictionary(props) {
     <div className="Dictionary">
       {loaded ? (
         <section>
-          <div className="subheading">What word piques your interest?</div>
+          <div className="subheading">What word are you looking for?</div>
           <form onSubmit={handleSubmit}>
             <input
               className="search"

@@ -1,7 +1,6 @@
-.Photos img {
-  border-radius: 20px;
-}
-
-.Photos img:hover {
-  opacity: 0.7;
+/* In your Photos.css */
+.small-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 100px; /* Adjust this value to control the image height */
 }

@@ -2,16 +2,19 @@ import React from "react";
 import Audio from "./Audio";
 import "../styles/Phonetic.css";
 
-export default function Phonetic(props) {
-  const { audio, text } = props.phonetics;
+export default function Phonetics(props) {
+  const audio = new Audio(props.phonetics.audio);
 
-  if (audio && text) {
+  function handlePlay() {
+    audio.play();
+  }
+  if (props.phonetics) {
     return (
-      <div className="Phonetic">
-        <div className="audio">
-          <Audio audioUrl={audio} />
-        </div>
-        <div className="text">{text}</div>
+      <div className="Phonetics">
+        <button type="button" className="AudioButton" onClick={handlePlay}>
+          <i className="fas fa-play-circle"></i>
+        </button>
+        <span className="Text">{props.phonetics.text}</span>
       </div>
     );
   } else {

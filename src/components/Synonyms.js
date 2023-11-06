@@ -2,12 +2,16 @@ import React from "react";
 import "../styles/Synonyms.css";
 
 export default function Synonyms(props) {
-  if (props.synonyms && props.synonyms.length > 0) {
-    const synonymsText = props.synonyms.join(", ");
+  if (props.synonyms) {
     return (
-      <div>
-        <span>Synonyms:</span> {synonymsText}
-      </div>
+      <ul className="Synonyms">
+        {" "}
+        <strong>Synonyms: </strong>
+        <br />
+        {props.synonyms.map(function (synonyms, index) {
+          return <li key={index}>{synonyms}</li>;
+        })}
+      </ul>
     );
   } else {
     return null;

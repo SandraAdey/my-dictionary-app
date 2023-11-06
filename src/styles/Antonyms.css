@@ -1,13 +1,15 @@
-.antonyms {
-  font-size: 14px;
-  font-weight: 400;
-  text-align: start;
-  margin-top: 15px;
+/* In your Antonyms.css */
+.antonyms-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.antonyms span{
-  display: inline-block;
-  padding-right: 5px;
-  line-height: 1;
-  font-weight: 700;
+.antonyms-label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.antonyms-text {
+  flex: 1;
 }

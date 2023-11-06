@@ -1,3 +1,4 @@
+/* Base styles for all screen sizes */
 .App {
   display: flex;
   flex-direction: column;
@@ -8,28 +9,42 @@
 }
 
 .App h1 {
-  font-size: 75px;
+  font-size: 3rem; /* Adjust font size for smaller screens */
   font-weight: 900;
-  margin: 30px 0;
+  margin: 1rem 0; /* Adjust margins for smaller screens */
   text-align: center;
-  letter-spacing: 3px;
-  
-  color: #882e8b;
+  letter-spacing: 2px; /* Adjust letter spacing for smaller screens */
+  color: rgb(62, 119, 241);
 }
 
 .App footer {
-  font-size: 16px;
+  font-size: 1rem; /* Adjust font size for smaller screens */
   font-weight: 500;
-  margin: 5px 0;
+  margin: 0.5rem 0; /* Adjust margins for smaller screens */
   text-align: center;
   color: #000;
 }
 
 .App a {
-  color: #8b2e8b;
+  color: rgb(62, 119, 241);
   text-decoration: none;
 }
 
 .App a:hover {
-  color: #532770;
+  color: rgb(62, 119, 241);
 }
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .App h1 {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+    letter-spacing: 1px;
+  }
+
+  .App footer {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+  }
+}
+

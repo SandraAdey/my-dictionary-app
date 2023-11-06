@@ -3,13 +3,13 @@
   line-height: 1.5;
   font-weight: 800;
   margin-bottom: 0;
-  color: #722e8b;
+  color: rgb(62, 119, 241);
 }
 
 .Meaning hr {
   margin: 5px 0 15px 0;
   width: 100%;
-  border: 1px solid #642770;
+  border: 1px solid rgb(62, 119, 241);
 }
 
 .definition {

@@ -5,8 +5,9 @@ export default function Antonyms(props) {
   if (props.antonyms && props.antonyms.length > 0) {
     const antonymsText = props.antonyms.join(", ");
     return (
-      <div>
-        <span>Antonyms:</span> {antonymsText}
+      <div className="antonyms-container">
+        <span className="antonyms-label">Antonyms:</span>
+        <span className="antonyms-text">{antonymsText}</span>
       </div>
     );
   } else {

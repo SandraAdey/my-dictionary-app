@@ -4,17 +4,15 @@
   margin-bottom: 25px;
   padding: 50px;
   border-radius: 20px;
-  outline: 2px solid #7b2e8b;
-  outline-offset: -10px;
-  background-color: #eee8f5;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(207, 222, 255);
+
 }
 
 .Dictionary .search {
   margin: auto;
   width: 50%;
   height: 40px;
-  border: 2px solid #832e8b;
+  border: 2px solid rgb(62, 119, 241);
   border-radius: 20px;
   background-color: #fff;
   padding-left: 10px;
@@ -27,14 +25,14 @@
   margin-left: 8px;
   border-radius: 20px;
   border: none;
-  background-color: #6e2e8b;
+  background-color: rgb(62, 119, 241);
   color: #fff;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
 
 .Dictionary .search-button:hover {
-  background-color: #70276f;
+  background-color:rgb(148, 180, 249);
 }
 
 .Dictionary .subheading {
